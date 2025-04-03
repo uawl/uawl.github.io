@@ -57,4 +57,7 @@ async function copyDir(src: string, dest: string) {
   }
 }
 
-await copyDir(PUBLIC_DIR, OUT_DIR);
+try {
+  await copyDir(PUBLIC_DIR, OUT_DIR);
+}
+catch {}
