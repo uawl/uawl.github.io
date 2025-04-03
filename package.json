@@ -1,0 +1,19 @@
+{
+  "name": "uawl.github.com",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "dependencies": {
+    "@preact/signals": "^2.0.2",
+    "preact": "^10.26.4",
+    "preact-render-to-string": "^6.5.13"
+  },
+  "scripts": {
+    "dev": "bun scripts/dev.ts"
+  }
+}
